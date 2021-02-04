@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    min-width:600px;
+    max-width:1600px
+}
+
+/* imagem fundo*/
+
+.paisagem{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.paisagem img{
+    position: absolute;
+    width: 57.5%;
+    height: 100vh;
+}
+
+/* menu */
+
+.header{
+    display: flex;
+    padding: 20px 0px;
+}
+
+.menu{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.logo img{
+    width: 145px;
+    height: 75px;
+    text-decoration-color: none;
+    border: none;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    font-family: 'Righteous', cursive;
+    
+
+    border-radius: 16px;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 20px 30px;
+    
+    border: 1px solid transparent;
+}
+
+li:active, .menu ul li:hover{
+    border: 1px solid #D00909;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+/* flex box*/
+
+.flex h1{
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 115px;
+
+    font-size: 140px;
+    font-weight: 300;
+    text-shadow: 2px 4px 11px#f3f3f3;
+}
+
+.flex h3{
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #D00909;
+
+    position: absolute;
+    top: 283px;
+    left: 748px;
+
+    flex-wrap: wrap;
+    font-size: 57px;
+    font-weight: 300;
+    text-shadow: 1px 2px 8px#f3f3f3;
+}
+
+/* linha lateral com pages*/
+
+.linha1{
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+
+    width: 3px;
+    height: 200px;
+    top: 165px;
+    left: 45px;
+    margin: 0px auto;
+}
+
+/* caixa de video f-40*/
+
+.caixa{
+    position: absolute;
+    top: 370px;
+    left: 140px;
+}
+
+.caixa img{
+    border-radius: 30px;
+    width: 338px;
+    height: 221px;
+    margin: 10px 10px;
+}
+
+.play a{
+    position: absolute;
+    top: 80px;
+    left: 122px;
+}
+
+.play img{
+    width: 80px;
+    height: 80px;
+}
+
+/* redes sociais*/
+
+.redes{
+    display: flex;
+    position: absolute;
+    top: 370px;
+    left: 28.5px;
+}
+
+.redes a{
+    color: white;
+    text-decoration: none;
+}
+
+.pages{
+    list-style: none;
+    border-radius: 20px;
+}
+
+.pages li {
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 20px;
+    writing-mode: vertical-lr;
+    list-style: none;
+    
+    margin: 2px auto;
+    padding: 8px 8px;
+}
